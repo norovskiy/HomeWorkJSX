@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fffdf9;
+  color: #222;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+  font-weight: bold;
+}
+.header ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 3rem 0;
+  width: 90%;
+  margin: auto;
+}
+.hero-text {
+  flex: 1;
+}
+.hero-text h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+.hero-text p {
+  margin: 1rem 0;
+}
+.hero-text button {
+  background: orange;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.hero-img {
+  flex: 1;
+  text-align: center;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem 0;
+  width: 90%;
+  margin: auto;
+}
+.about-text h2 {
+  font-size: 2rem;
+}
+.about-text button {
+  margin-top: 1rem;
+  background: orange;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.services {
+  text-align: center;
+  padding: 3rem 0;
+}
+.service-items {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+  align-items: center;
+}
+.service-items div {
+  flex: 1;
+  min-width: 200px;
+}
+
+.popular {
+  padding: 3rem 0;
+  text-align: center;
+}
+.items {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+.items div {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  width: 250px;
+}
+.img-placeholder {
+  background: #f9f9f9;
+  height: 150px;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+.popular button {
+  background: orange;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 3rem 0;
+}
+.order-text h2 {
+  font-size: 2rem;
+}
+.store-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.store-buttons button {
+  background: black;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.testimonial {
+  background: #fff8f1;
+  padding: 3rem 2rem;
+  text-align: center;
+  font-style: italic;
+}
+.testimonial h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.testimonial blockquote {
+  margin: 1rem auto;
+  max-width: 600px;
+}
+.testimonial p {
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.footer {
+  background: #fafafa;
+  padding: 3rem 1rem;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.footer h4 {
+  margin-bottom: 1rem;
+}
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+.footer ul li {
+  margin-bottom: 0.5rem;
+  color: #555;
+}
